@@ -20,7 +20,7 @@ double pidOutput = 0;
 
 //Default Brew Setpoint in degC
 union Four_Bytes brewSetPoint = {.d = 95.0};
-union Four_Bytes steamSetPoint = {.d = 100.0};
+union Four_Bytes steamSetPoint = {.d = 120.0};
 double deltaTemperatureC = 0.0;
 
 //Default Brew Toggle and Time
